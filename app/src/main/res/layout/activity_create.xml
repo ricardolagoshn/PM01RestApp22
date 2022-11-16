@@ -7,6 +7,18 @@
     android:orientation="vertical"
     tools:context=".ActivityCreate">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto" />
+
     <Button
         android:id="@+id/btncreate"
         android:layout_width="match_parent"
