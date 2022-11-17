@@ -189,6 +189,11 @@ public class ActivityCreate extends AppCompatActivity {
                 {
                     JSONArray jsonArray = new JSONArray(response);
 
+                    for(int i = 0; i <= jsonArray.length(); i++)
+                    {
+                        JSONObject msg = jsonArray.getJSONObject(i);
+                    }
+
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
